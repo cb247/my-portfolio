@@ -76,7 +76,7 @@ button{
     position: fixed;
     z-index: 1;
     left: 0;
-    top: 9%;
+    top: 7%;
     background-color: transparent;
     overflow-x: hidden;
     transition: all 0.5s ease;
@@ -139,6 +139,10 @@ button{
     cursor: pointer;
     color: white;
     background-color: rgb(187, 78, 187);
+}
+.btn a{
+    color: white;
+    text-decoration: none;
 }
 .label-pic{
     width: 50%;
@@ -494,6 +498,9 @@ w{
     }
 }
 @media screen and (max-width: 768px){
+    body{
+        overflow: hidden;
+    }
     .label{
         display: flex;
         flex-direction: column;
@@ -866,6 +873,21 @@ w{
     }
     .textb input{
         width: 110%;
+    }
+    .introduction{
+        width: 100%;
+        height: 1350px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 30%;
+    }    
+    .introduction-shell{
+        width: 100%;
+        height: 1250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 }
 @media screen and (max-width: 360px){
